@@ -17,7 +17,7 @@ import seaborn as sns
 st.set_page_config(
     page_title="MediPredict",
     layout="wide",
-    page_icon=r"medipredictlogo.png",
+    page_icon="medipredictlogo.png",
     initial_sidebar_state="expanded"
 )
 
@@ -148,7 +148,7 @@ disease_info = {
 
 # Enhanced sidebar navigation to match the attached UI
 with st.sidebar:
-    st.image(r"C:\Users\USer\Downloads\medipredictlogo.png", width=160)
+    st.image("medipredictlogo.png", width=160)
     selected = option_menu(
         'MediPredict - Disease Prediction System',
         ['Diabetes Prediction', 'Heart Health Prediction', 'Breast Cancer Prediction', 
