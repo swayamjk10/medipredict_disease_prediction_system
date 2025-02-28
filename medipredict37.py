@@ -93,7 +93,7 @@ model_paths = {
     'diabetes': os.path.join(models_dir, 'best_model.sav'),
     'heart': os.path.join(models_dir, 'heart_best_model.sav'),
     'breast_cancer': os.path.join(models_dir, 'breast_cancer_best_model.sav'),
-    'hepatitis': os.path.join(models_dir, 'hepatitis_model (1).sav'),
+    'hepatitis': os.path.join(models_dir, 'hepatitis_model_new.sav'),
     'kidney': os.path.join(models_dir, 'model.sav')
 }
 
